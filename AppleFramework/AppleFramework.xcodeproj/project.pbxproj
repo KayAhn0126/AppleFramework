@@ -14,6 +14,7 @@
 		6AA2ABA428ADE944009655FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AA2ABA328ADE944009655FF /* Assets.xcassets */; };
 		6AA2ABA728ADE944009655FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AA2ABA528ADE944009655FF /* LaunchScreen.storyboard */; };
 		6AA2ABAF28ADF6D5009655FF /* FrameworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA2ABAE28ADF6D5009655FF /* FrameworkViewController.swift */; };
+		6AA2ABB128AE01DB009655FF /* FrameworkCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA2ABB028AE01DB009655FF /* FrameworkCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		6AA2ABA628ADE944009655FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6AA2ABA828ADE944009655FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AA2ABAE28ADF6D5009655FF /* FrameworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkViewController.swift; sourceTree = "<group>"; };
+		6AA2ABB028AE01DB009655FF /* FrameworkCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				6AA2ABA828ADE944009655FF /* Info.plist */,
 				6A730A5828ADEBEE00DFA461 /* FrameworkData.swift */,
 				6AA2ABAE28ADF6D5009655FF /* FrameworkViewController.swift */,
+				6AA2ABB028AE01DB009655FF /* FrameworkCollectionViewCell.swift */,
 			);
 			path = AppleFramework;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AA2ABB128AE01DB009655FF /* FrameworkCollectionViewCell.swift in Sources */,
 				6AA2ABAF28ADF6D5009655FF /* FrameworkViewController.swift in Sources */,
 				6AA2AB9B28ADE943009655FF /* AppDelegate.swift in Sources */,
 				6A730A5928ADEBEE00DFA461 /* FrameworkData.swift in Sources */,
