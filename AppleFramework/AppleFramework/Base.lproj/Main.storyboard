@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="azw-sS-aF5">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="fbN-1X-kEn">
                                     <size key="itemSize" width="159" height="217"/>
@@ -68,8 +68,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="azw-sS-aF5" secondAttribute="bottom" id="VUD-Ox-RLZ"/>
-                            <constraint firstItem="azw-sS-aF5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="bTk-ZU-3I9"/>
+                            <constraint firstAttribute="bottom" secondItem="azw-sS-aF5" secondAttribute="bottom" id="VUD-Ox-RLZ"/>
+                            <constraint firstItem="azw-sS-aF5" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="bTk-ZU-3I9"/>
                             <constraint firstItem="azw-sS-aF5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="cJq-6x-tmY"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="azw-sS-aF5" secondAttribute="trailing" id="n5I-KP-Xeh"/>
                         </constraints>
