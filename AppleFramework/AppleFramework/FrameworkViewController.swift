@@ -17,6 +17,10 @@ class FrameworkViewController: UIViewController {
         collectionView.dataSource = self
         collectionView.delegate = self
         
+        if let flowLayout = collectionView.collectionViewLayout as? UICollectionViewFlowLayout {
+            flowLayout.estimatedItemSize = .zero
+        }
+        
         collectionView.contentInset = UIEdgeInsets(top: 0, left: 10, bottom: 0, right: 10)
     }
 }
