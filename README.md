@@ -2,9 +2,10 @@
 
 - UICollectionView with Storyboard!
 
-| 작동 화면 |
-|:---------:|
-|   Text    |
+## 🍎 작동 화면
+|                white                 |                black                 |
+|:------------------------------------:|:------------------------------------:|
+| ![](https://i.imgur.com/IWfXPva.gif) | ![](https://i.imgur.com/5vvefss.gif) |
 
 ## 🍎 Label의 numberOfLines를 0으로 두면 텍스트가 표시할 수 있을 만큼 늘어난다
 
