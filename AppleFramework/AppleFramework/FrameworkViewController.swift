@@ -51,12 +51,12 @@ extension FrameworkViewController: UICollectionViewDelegateFlowLayout {
         return CGSize(width: width, height: height)
     }
     
-    // MARK: - 열과 열 사이의 간격
+    // MARK: - 행과 행 사이의 간격
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
         return 10
     }
     
-    // MARK: - 행과 행 사이의 간격
+    // MARK: - 열과 열 사이의 간격
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
         return 10
     }
