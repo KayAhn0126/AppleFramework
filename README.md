@@ -1,11 +1,20 @@
-# AppleFramework
+# 4. AppleFramework
 
 - UICollectionView with Storyboard!
+
 
 ## 🍎 작동 화면
 |                white                 |                black                 |
 |:------------------------------------:|:------------------------------------:|
 | ![](https://i.imgur.com/IWfXPva.gif) | ![](https://i.imgur.com/5vvefss.gif) |
+
+## 🍎 Navigation Controller의 Prefers Large Titles
+
+- Prefers Large Titles 미적용
+![](https://i.imgur.com/7TsyyWF.png)
+- Prefers Large Titles 적용 
+![](https://i.imgur.com/Mu9lUlK.png)
+- 요즘 앱의 느낌이 물씬 풍긴다.
 
 ## 🍎 Label의 numberOfLines를 0으로 두면 텍스트가 표시할 수 있을 만큼 늘어난다
 
@@ -99,8 +108,16 @@ class FrameworkViewController: UIViewController {
     }
 }
 ```
-- 의문점1 -> Estimate Size가 아니고 왜 estimatedItemSize ?
-    - 
-- 의문점2 -> None이 아니고 왜 zero?
-    - 
-- 위에 대해서는 조금 더 공부한 후 업데이트 하기!
+
+## 🍎 행과 행 사이, 열과 열 사이 간격 주기
+```swift
+    // MARK: - 섹션과 섹션 사이의 간격 -> 행과 행 사이의 간격
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
+        return 10
+    }
+    
+    // MARK: - 아이템과 아이템 사이의 간격 -> 열과 열 사이의 간격
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
+        return 10
+    }
+```
