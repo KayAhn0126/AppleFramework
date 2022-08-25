@@ -121,3 +121,6 @@ class FrameworkViewController: UIViewController {
         return 10
     }
 ```
+- 만약 위의 코드를 입력하지 않는다면 무슨일이 생길까?
+![](https://i.imgur.com/CRQSPAI.png)
+- collectionView에 이미 설정된 Min Spacing이 적용되어 예상하지 못한 방식으로 컬렉션뷰를 보여준다.
