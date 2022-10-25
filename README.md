@@ -1,4 +1,4 @@
-# 4. AppleFramework
+# AppleFramework
 
 - UICollectionView with Storyboard!
 
@@ -81,7 +81,7 @@ collectionView.contentInset = UIEdgeInsets(top: 0, left: 16, bottom: 0, right: 1
 먼저 이전 프로젝트 [ChatList](https://github.com/KayAhn0126/ChatList)의 README내 
 - **collectionViewCell의 오토 레이아웃이 제대로 잡히지 않는 문제 해결**을 보자!
 
-> - 공식문서에서는 원하는 답변을 찾을 수 없었고 StackOverFlow의 한 유저는 ***xcode 11 이후 부터 UICollectionViewDelegateFlowLayout의 size 결정 메서드가 제대로 동작하려면 Estimate Size 속성을 None으로 바꿔줘야 한다***고 나와있다. [무려 411 따봉을 받은 출처.](https://stackoverflow.com/questions/38028013/how-to-set-uicollectionviewcell-width-and-height-programmatically)
+> - 공식문서에서는 원하는 답변을 찾을 수 없었고 StackOverFlow의 한 유저는 ***xcode 11 이후 부터 UICollectionViewDelegateFlowLayout의 size 결정 메서드가 제대로 동작하려면 Estimate Size 속성을 None으로 바꿔줘야 한다***고 나와있다. [Stack Overflow 출처](https://stackoverflow.com/questions/38028013/how-to-set-uicollectionviewcell-width-and-height-programmatically)
 
 위와 같은 내용을 볼 수 있다. 이번에도 마찬가지로 cell을 이용한 프로젝트 였으므로 아래 사진의 프로세스 같이 cell의 Estimate Size를 None으로 바꿔주었다.
 
